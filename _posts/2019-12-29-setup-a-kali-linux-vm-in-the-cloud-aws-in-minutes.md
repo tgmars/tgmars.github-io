@@ -1,5 +1,5 @@
 ---
-title: Setup a Kali Linux VM in the cloud (AWS) in minutes!
+title: [Draft] Setup a Kali Linux VM in the cloud (AWS) in minutes!
 categories:
   - Blog
 tags:
