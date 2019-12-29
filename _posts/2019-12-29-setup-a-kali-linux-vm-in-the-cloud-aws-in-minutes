@@ -1,21 +1,32 @@
 ---
-title: Setup a Kali Linux VM in the cloud (AWS) in minutes!
+title: Parse an XML file into a variable with Powershell
 categories:
   - Blog
 tags:
-  - Cloud
-  - AWS
-  - Penetration testing
-  - Kali
+  - XML
+  - Powershell
+  - Kringlecon
 ---
+### Context
+Requirement to parse XML, identify a field and count its occurances during Kringlecon 2019.
 
-Why? Super handy to set up during a CTF for some extra processing power.
-Create an AWS account
-Go to Kali Linux AMI - link here
-Depending on use time, it's approximately $0.005 an hour for a t2 medium node (4gb RAM)
+### Problem
+Parse the XML, access fields and count them.
 
-Follow the steps: create keypair, create a VPC, select datacentre.
-Login with whichever account is specified in the instructions, at the time of publish this was 'ec2-user'
+### Solution
+Read the file with Get-Content and assign to a variable casted to [xml] type.
 
+### Examples
+Read the file and parse as XML into a variable named $cn.
+```
+[xml]$cn = Get-Content filename-here.xml
+```
+Discover the structure of the variable, tab completion works.
+```
+$cn.Object.SubObject.SubSubObject
+```
+Sort or group by a specified property/object.
+```
+$cn.Object | Group-Object -Property SubObject
+```
 
-This post has a manual excerpt `<!--more-->` set after the second paragraph. The following YAML Front Matter has also be applied:
