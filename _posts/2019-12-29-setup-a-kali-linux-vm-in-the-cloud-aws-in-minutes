@@ -1,6 +1,5 @@
 ---
 title: "Setup a Kali Linux VM in the cloud (AWS) in minutes!"
-excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
@@ -17,7 +16,7 @@ Depending on use time, it's approximately $0.005 an hour for a t2 medium node (4
 
 Follow the steps: create keypair, create a VPC, select datacentre.
 Login with whichever account is specified in the instructions, at the time of publish this was 'ec2-user'
-<!--more-->
+
 
 This post has a manual excerpt `<!--more-->` set after the second paragraph. The following YAML Front Matter has also be applied:
 
