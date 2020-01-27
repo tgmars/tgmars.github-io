@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: The Cyber Trench
 email: tmarsonearth@gmail.com
-description: "Welcome to the cyber trench, come & pull up a shell!" # this means to ignore newlines until "baseurl:"
+description: "Welcome to The Cyber Trench, come & pull up a shell!" # this means to ignore newlines until "baseurl:"
 twitter_username: 
 github_username: tgmars
 minimal_mistakes_skin: dark
@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "tgmars"
   avatar : "/assets/images/tgmars-github-page-logo.png"
-  bio    : "Welcome to the cyber trench, come & pull up a shell!"
+  bio    : "Welcome to The Cyber Trench, come & pull up a shell!"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
