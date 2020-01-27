@@ -16,7 +16,7 @@
 title: The Cyber Trench
 email: tmarsonearth@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Welcome to the trenches
+Welcome to the trenches
 twitter_username: 
 github_username: tgmars
 minimal_mistakes_skin: dark
@@ -58,11 +58,11 @@ plugins:
 author:
   name   : "tgmars"
   avatar : "/assets/images/tgmars-github-page-logo.png"
-  bio    : " A place to put my infosec findings"
+  bio    : "Welcome to the trenches!"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://tgmars.github.io"
+      url: "https://www.thecybertrench.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
