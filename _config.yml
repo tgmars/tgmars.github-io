@@ -50,6 +50,7 @@ include:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jemoji
@@ -58,7 +59,7 @@ plugins:
 author:
   name   : "tgmars"
   avatar : "/assets/images/tgmars-github-page-logo.png"
-  bio    : "Welcome to the trenches!"
+  bio    : "Welcome to the cyber trench, come & pull up a shell!"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
