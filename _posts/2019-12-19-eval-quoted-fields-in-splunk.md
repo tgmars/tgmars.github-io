@@ -2,7 +2,7 @@
 title: Eval quoted fields in Splunk
 date: 2019-12-19
 categories:
-  - blog
+  - Blog
 tags:
   - Splunk
   - Kringlecon
