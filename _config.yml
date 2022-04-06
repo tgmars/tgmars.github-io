@@ -18,7 +18,7 @@ email: tmarsonearth@gmail.com
 description: "Welcome to The Cyber Trench, come & pull up a shell!" # this means to ignore newlines until "baseurl:"
 twitter_username: 
 github_username: tgmars
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
